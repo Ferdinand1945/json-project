@@ -1,0 +1,26 @@
+{
+  "name": "fedtest",
+  "version": "1.0.0",
+  "description": "Test for frontend developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedtest/fedtest.git"
+  },
+  "author": "Com Hem Team Web",
+  "license": "ISC",
+  "homepage": "https://github.com/fedtest/fedtest#readme",
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "devDependencies": {
+    "browserify": "13.1.x",
+    "express": "4.14.x",
+    "gulp": "3.9.x",
+    "gulp-less": "3.1.x",
+    "gulp-livereload": "3.8.x",
+    "gulp-nodemon": "2.1.x",
+    "gulp-sourcemaps": "1.6.x",
+    "vinyl-buffer": "1.0.x",
+    "vinyl-source-stream": "1.1.x"
+  }
+}

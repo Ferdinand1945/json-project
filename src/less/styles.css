@@ -1,0 +1,59 @@
+html,
+input,
+select,
+textarea {
+  font-family: 'Lineto Brown', sans-serif;
+  color: #231f20;
+}
+body {
+  background-color: #e6ebe6;
+}
+p {
+  font-style: normal;
+  font-size: 20px;
+}
+.article ul li {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  list-style: none;
+  width: 300px;
+  display: inline-block;
+  float: left;
+}
+.title-with-line--red {
+  border-bottom: 4px solid #000;
+  color: #000;
+}
+.title-with-line {
+  padding-bottom: 24px !important;
+}
+.title-with-line {
+  position: relative;
+  padding-bottom: 12px !important;
+  color: currentcolor;
+}
+h1 {
+  font-size: 38px;
+  font-weight: 200;
+  line-height: 1;
+}
+.date {
+  color: #000;
+  font-size: 20px;
+}
+.img img {
+  width: 100%;
+}
+.col-1 {
+  padding: 14px;
+}
+.col-2 {
+  padding: 14px;
+}
+.read-more {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0px;
+  padding: 14px;
+  margin: 14px;
+  border: none;
+}
