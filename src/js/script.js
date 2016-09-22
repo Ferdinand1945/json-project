@@ -8,7 +8,7 @@ $(document).ready(function () {
     var articles = data.articles.map(function (articles) {
       return '<div class="img"><img src="'+ articles.image +'"></div>'
       
-      +'<div class="col-1">' + '<h1 class="title-with-line--red">'+ articles.title+'</h1>' 
+      +'<div class="col-1">' + '<h1 class="title-with-line--red">'+ articles.title+'</h1>' + '<hr class="short">'
       
       + '<div class="date">' + articles.date +'</div>' + '</div>'
       + '<br> '
@@ -26,6 +26,6 @@ $(document).ready(function () {
     }
   });
 
-  showData.text('Loading the JSON file.');
+  showData.text('Loading the JSON file...');
   // });
 });
